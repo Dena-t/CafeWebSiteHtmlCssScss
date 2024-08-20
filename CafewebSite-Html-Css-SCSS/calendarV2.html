@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- required meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="interactive calendar with cafe events">
+
+    <!-- favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="images/faviconCup3.png">
+
+
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!--fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+            href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic"
+            rel="stylesheet">
+
+    <!--icons-->
+    <script src="https://kit.fontawesome.com/508657d78e.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.lordicon.com/lordicon.js"></script>
+
+
+    <!-- custom style -->
+    <link rel="stylesheet" href="css/template.css">
+    <link rel="stylesheet" href="css/calendar.css">
+    <script src="scripts/template-en.js" defer></script>
+    <script src="scripts/calendar.js"></script>
+
+    <title>Café Bricolage | Calendar</title>
+
+</head>
+
+<body>
+<header class="shadow p-3 mb-5 bg-body rounded custom-header">
+    <div id="header-content" class="container-fluid d-flex justify-content-center align-items-center">
+
+        <div id="logo-container">
+            <a class="logo" href="#">
+                <img id="logo" src="images/logo8.png" alt="Café Bricolage logo">
+            </a>
+        </div>
+
+        <div id="nav-bar" class="container-fluid navbar navbar-expand-lg navbar-light">
+            <div class="d-flex justify-content-end align-items-center ml-auto">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="nav nav-pills">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">menus</a> 
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="menu.html">menus</a></li>
+                          <li><a class="dropdown-item" href="cater.html">catering</a></li>
+                        </ul>                
+                      </li>     
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">space</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">events</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                           aria-expanded="false">people</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">artists</a></li>
+                            <li><a class="dropdown-item" href="#">staff</a></li>
+                            <li><a class="dropdown-item" href="join-us-en.html">work with us</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact-us-en.html">contact us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="FAQ.html">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link language" href="#">FR</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+</header>
+<main class="main-content">
+    <div id="title">
+        <P class="h1">Event calendar<p>
+    </div>
+    <div class="container-fluid">
+        <div class="row text-center">
+            <div class="col-sm-3">
+                <img id="sophia" src="https://cdn.leonardo.ai/users/51a17b35-0421-43bf-b866-9f2d7c5fdbb2/generations/76fd3a61-8a35-4201-b7c3-5425b4a851bc/Default_Sophia_the_Culinary_ArtistSophia_is_a_culinary_wizard_1.jpg">
+            </div>
+            <div class="col-sm-6" id="calendarDisplay">
+                <script>
+                    // create a date object
+                    let today = new Date();
+                    getCalendar(today);
+                </script>
+
+            </div>
+            <div class="col-sm-6" id="eventForm">
+                <script>
+                    generateEventTable(events);
+                </script>
+
+            </div>
+        </div>
+    </div>
+</main>
+
+
+<footer id="footer">
+    <div class="address">
+        <span>123 Any Street | Montréal | 7am - 10pm | 7 days a week</span>
+    </div>
+    <div class="social-buttons">
+        <div class="instagram">
+            <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+        </div>
+        <div class="facebook">
+            <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
+        </div>
+        <div class="tiktok">
+            <a href="https://www.tiktok.com/"><i class="fab fa-tiktok"></i></a>
+        </div>
+    </div>
+    <div class="copyright">
+        <span>&copy; 2022 - <span id="currentYear"></span> Café Bricolage. All rights reserved. </span>
+    </div>
+
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

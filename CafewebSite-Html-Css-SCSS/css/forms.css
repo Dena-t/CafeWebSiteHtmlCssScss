@@ -1,0 +1,421 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  background-color: #fff2d9;
+}
+
+header {
+  background-color: #fff2d9;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.custom-header {
+  background-color: #fff2d9 !important;
+}
+
+.navbar {
+  margin-left: auto;
+}
+
+#logo-container #logo {
+  max-width: 100%;
+  height: auto;
+}
+
+#nav-bar .nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-size: larger;
+  padding-top: 62px;
+}
+
+#nav-bar .nav-pills {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  justify-content: space-around;
+}
+
+#nav-bar .nav-item {
+  border-radius: 15px;
+  height: 100%;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+#nav-bar .nav-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: medium;
+  font-family: "Montserrat", sans-serif;
+}
+
+.nav-pills .nav-link {
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-family: "Montserrat", sans-serif;
+  font-size: large;
+}
+
+.nav li {
+  background-color: #80AEBD;
+  margin: 2%;
+  border-radius: 15px;
+  height: 70%;
+  border: groove;
+}
+.nav li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: medium;
+  font-family: "Montserrat", sans-serif;
+  height: 100%;
+  width: 100%;
+}
+
+#nav-bar .nav-pills .nav-item:hover .nav-link {
+  background-color: #d13d25;
+  color: #fff;
+  border-radius: 15px;
+}
+
+.dropdown-menu {
+  background-color: #fff2d9;
+  padding: 10px;
+  border: none;
+}
+.dropdown-menu .dropdown-item:hover {
+  background-color: #d13d25;
+  color: #fff;
+  border-radius: 15px;
+}
+
+.col {
+  margin: 10px;
+}
+
+.main-content {
+  background-color: #fff2d9;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1em;
+  line-height: 2;
+}
+
+footer {
+  background-color: #fff2d9;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .social-buttons {
+  display: flex;
+  gap: 20px;
+  background-color: #fff2d9;
+  color: #D13D25;
+  font-size: 1.5em;
+}
+footer .social-buttons a {
+  color: inherit;
+}
+footer .address, footer .copyright {
+  font-size: 1em;
+  color: black;
+  text-align: center;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}
+
+.btn {
+  background-color: #D13D25 !important;
+}
+
+/**contact us*/
+.col-sm-5, .col-sm-3, .col-sm-4 {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  padding: 0;
+}
+
+.col-sm-4 {
+  background-position: center;
+  background-size: contain;
+  position: relative;
+  background-repeat: no-repeat;
+  color: #4C5766;
+}
+
+.col-sm-5 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+input, textarea {
+  float: left;
+  margin: 2px;
+  border-radius: 8px;
+  border-width: 1px;
+}
+
+label {
+  font-size: small;
+  float: left;
+}
+
+#contact-info-table {
+  width: 100%;
+  word-wrap: break-word;
+}
+
+#contact-info-table td {
+  font-weight: normal;
+  font-size: medium;
+}
+
+input[type=submit], input[type=reset] {
+  background-color: #80AEBD;
+  color: #FFF2D9;
+  align-self: center;
+}
+
+.submit-form {
+  margin-left: 30px;
+  padding-left: 180px;
+}
+
+br {
+  display: block;
+  content: "";
+  margin: 0;
+}
+
+#contact-us p {
+  text-align: left;
+  font-weight: normal;
+  font-size: medium;
+}
+
+#survey-reference {
+  border-radius: 8px;
+  border-style: inherit;
+  border-color: inherit;
+}
+
+#submit-td {
+  padding-left: 50%;
+}
+
+#countLabel {
+  text-align: end;
+  margin-right: 150px;
+}
+
+#warningBox {
+  margin-left: 54px;
+  text-align: end;
+  margin-right: 55px;
+}
+
+#feedbackwarning {
+  margin-left: 58px;
+  text-align: end;
+  margin-right: 67px;
+}
+
+/*** Spaces.html*/
+.d-block {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.carousel-inner {
+  height: 350px;
+  width: 400px;
+  margin-bottom: -15px;
+  margin-top: 15px;
+}
+
+.carousel-inner > .item > img {
+  min-width: 100%;
+}
+
+#atmosphere {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+#galleryvibes {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+#atmosphere-header {
+  margin-top: 1rem;
+}
+
+#galleryvibes-header {
+  margin-bottom: 1rem;
+}
+
+#col-one, #col-two, #col-three, #col-five {
+  text-align: left;
+}
+
+.col-sm-7 {
+  text-align: left;
+  padding-top: 15px;
+}
+
+h5 {
+  text-align: center;
+}
+
+#undercarousel {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+#job-positions, #yearsofexperience {
+  float: left;
+  margin-top: 6px;
+  border-radius: 8px;
+  margin-left: 5px;
+}
+
+.form-label {
+  margin-bottom: 0.5rem;
+  float: left;
+  word-wrap: break-word;
+  margin-top: 30px;
+}
+
+#formFileSm {
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+#candidate-info-table {
+  width: 100%;
+  word-wrap: break-word;
+}
+
+td {
+  word-wrap: break-word;
+}
+
+#candidate-info {
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid grey;
+}
+
+#text_input_id {
+  padding: 0;
+}
+
+#cv-upload-fr-label, #cv-upload-en-label {
+  text-align: left;
+}
+
+#form-container-en, #form-container-fr {
+  margin-top: 50px;
+}
+
+#buttons {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.previewtbl {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  font-size: small;
+  font-weight: 300;
+  border-style: solid;
+}
+.previewtbl td {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.previewtbl td label {
+  font-weight: 500;
+}
+
+#buttons {
+  display: table;
+  margin: auto;
+  margin-top: 10px;
+}
+
+#confirm-div {
+  display: table;
+  margin: auto;
+  margin-top: 20px;
+}
+#confirm-div input, #confirm-div label {
+  vertical-align: top;
+  font-weight: 400;
+}
+
+#confirmation {
+  margin-right: 15px;
+  margin-top: 6px;
+}
+
+tbody {
+  font-size: medium;
+}
+tbody label {
+  font-size: medium;
+}
+
+#confirm-warning {
+  margin-left: 39%;
+}
+
+.warning-span {
+  font-size: small !important;
+  font-weight: 400;
+  color: red;
+}
+
+/***submission forms html**/
+#successful-submission {
+  text-align: center;
+}
+
+@media only screen and (max-width: 400px) {
+  body {
+    font-size: 0.8em;
+  }
+}/*# sourceMappingURL=forms.css.map */

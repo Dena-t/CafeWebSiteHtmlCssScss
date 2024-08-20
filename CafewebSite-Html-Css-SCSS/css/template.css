@@ -1,0 +1,159 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  background-color: #fff2d9;
+}
+
+header {
+  background-color: #fff2d9;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.custom-header {
+  background-color: #fff2d9 !important;
+}
+
+.navbar {
+  margin-left: auto;
+}
+
+#logo-container #logo {
+  max-width: 100%;
+  height: auto;
+}
+
+#nav-bar .nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-size: larger;
+  padding-top: 62px;
+}
+
+#nav-bar .nav-pills {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  justify-content: space-around;
+}
+
+#nav-bar .nav-item {
+  border-radius: 15px;
+  height: 100%;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+#nav-bar .nav-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: medium;
+  font-family: "Montserrat", sans-serif;
+}
+
+.nav-pills .nav-link {
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-family: "Montserrat", sans-serif;
+  font-size: large;
+}
+
+.nav li {
+  background-color: #80AEBD;
+  margin: 2%;
+  border-radius: 15px;
+  height: 70%;
+  border: groove;
+}
+.nav li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: medium;
+  font-family: "Montserrat", sans-serif;
+  height: 100%;
+  width: 100%;
+}
+
+#nav-bar .nav-pills .nav-item:hover .nav-link {
+  background-color: #d13d25;
+  color: #fff;
+  border-radius: 15px;
+}
+
+.dropdown-menu {
+  background-color: #fff2d9;
+  padding: 10px;
+  border: none;
+}
+.dropdown-menu .dropdown-item:hover {
+  background-color: #d13d25;
+  color: #fff;
+  border-radius: 15px;
+}
+
+.col {
+  margin: 10px;
+}
+
+.main-content {
+  background-color: #fff2d9;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1em;
+  line-height: 2;
+}
+
+footer {
+  background-color: #fff2d9;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .social-buttons {
+  display: flex;
+  gap: 20px;
+  background-color: #fff2d9;
+  color: #D13D25;
+  font-size: 1.5em;
+}
+footer .social-buttons a {
+  color: inherit;
+}
+footer .address, footer .copyright {
+  font-size: 1em;
+  color: black;
+  text-align: center;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}
+
+/** 404 page **/
+.not-found-message p {
+  font-size: 1.5em;
+  font-weight: 500;
+}/*# sourceMappingURL=template.css.map */

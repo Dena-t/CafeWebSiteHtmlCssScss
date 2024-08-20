@@ -1,0 +1,56 @@
+#calendar_table {
+    margin: 0,auto;
+    width: 100%;
+}
+
+
+#register {
+    margin: 0,auto;
+    width: 40%;
+}
+
+#calendar_table tr:nth-child(5) td:last-child {
+    background-color: yellow; /* Example styling */
+    font-weight: bold; /* Example styling */
+}
+
+
+#calendar_table tr:nth-child(6) td:nth-child(4) {
+    background-color: yellow; /* Example styling */
+    font-weight: bold; /* Example styling */
+}
+#calendar_table {
+    width: 100%;
+
+}
+td {
+    height: 4rem;
+    font-size:larger;
+}
+#calendar_today {
+    background-color: #44cc44;
+}
+#calendar_head {
+    height: 5rem;
+    font-size:x-large;
+}
+
+#calendar_event {
+    background-color: #8cbcfe;
+}
+.calendar_dates_with_event {
+    background-color: yellow; /* Example styling */
+    font-weight: bold; /* Example styling */
+}
+.Drescrition {
+    font-size: smaller;
+}
+
+#sophia {
+    margin-top: 5rem;
+    width: 20rem;
+}
+
+#title {
+    text-align: center;
+}
